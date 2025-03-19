@@ -31,18 +31,12 @@ author:
       url: "https://www.researchgate.net/profile/Rohit-Anand-8/research"
 
 # Theme
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "default"  # You can try "air", "neon", "contrast" too
+theme: minima
 
 # Build Settings
-markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-include-cache
 
 # SEO
 title_separator: "|"
