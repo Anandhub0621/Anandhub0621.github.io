@@ -1,10 +1,13 @@
 ---
 layout: home
-title: "Welcome"
+title: "Welcome to My Personal Website"
 author_profile: true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.3"
+  overlay_image: /assets/your-photo.jpg
+  caption: "Researcher | Author | Technologist"
 ---
-
-Welcome to my personal academic website!
 
 I’m **Rohit Anand**, a passionate researcher in **Precision Agriculture**, **Digital Farming**, and **AI-based Crop Monitoring**.  
 Currently pursuing PhD and working as a Graduate Research Associate at **The Ohio State University**, my work bridges the gap between agriculture and emerging technologies.
