@@ -9,16 +9,15 @@ theme: minima
 author:
   name: Er. Rohit Anand
   email: your-email@example.com # Replace with your professional email (optional)
-  avatar: "/assets/profile.jpg"   # Upload your photo in /assets/
-  bio: "Researcher in Precision Agriculture | Digital Agriculture | Academic Writer"
-  location: "Columbus, USA"
-  email: "anandrohit0621@email.com"
+  avatar: /assets/profile.jpg   # Upload your photo in /assets/
+  bio: Researcher in Precision Agriculture | Digital Agriculture | Academic Writer
+  location: Columbus, USA
+  email: anandrohit0621@email.com
   
 # Social links (add or remove as needed)
 social_links:
-  github: anandhu0621
-  linkedin: your-linkedin-username
-  twitter: your-twitter-handle
+  github: https://github.com/Anandhub0621
+  linkedin: https://linkedin.com/in/therohitanand
   # other options: facebook, instagram, youtube, stackoverflow, etc.
 
 # Build settings
