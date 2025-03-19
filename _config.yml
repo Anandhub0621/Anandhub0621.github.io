@@ -57,19 +57,19 @@ defaults:
       author_profile: true
 
 # Main Navigation Bar
-navigation:
+nav:
   - title: "Home"
-    url: "/"
+    url: /
   - title: "About"
-    url: "/about/"
-  - title: "CV"
-    url: "/cv/"
+    url: /about/
   - title: "Research"
-    url: "/research/"
-  - title: "Blog"
-    url: "/year-archive/"
+    url: /research/
+  - title: "CV"
+    url: /cv/
   - title: "Contact"
-    url: "/contact/"
+    url: /contact/
+  - title: "Blog"
+    url: /year-archive/
 
 # Social Sharing Image (Optional)
 # social:
