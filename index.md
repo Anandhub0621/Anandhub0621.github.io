@@ -5,7 +5,7 @@ author_profile: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
-  overlay_image: /assets/your-photo.jpg
+  overlay_image: /assets/profile.jpg
   caption: "Researcher | Author | Technologist"
 ---
 
