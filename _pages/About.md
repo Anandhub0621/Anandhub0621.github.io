@@ -2,7 +2,10 @@
 layout: single
 title: "About Me"
 permalink: /about/
+author_profile: false
 ---
+
+<img src="/assets/profile.jpg" alt="Profile Photo" style="max-width: 200px; border-radius: 50%; float: right; margin-left: 20px; margin-bottom: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);" />
 
 Hello! I'm **Rohit Anand**, a researcher passionate about advancing **Precision Agriculture**, **AI in Digital Farming**, and **Remote Sensing Technologies**.
 
