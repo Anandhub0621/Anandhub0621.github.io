@@ -1,72 +1,59 @@
-# Website Basic Info
 title: "Er. Rohit Anand"
-email: anandrohit0621@email.com
-description: >- 
+description: >-
   Personal Website | Researcher | Academic Portfolio | Blog
-url: "https://Anandhubo621.github.io"
 baseurl: ""  # Keep this empty for user.github.io site
+url: "https://Anandhub0621.github.io"
 
-# Author Information
+theme: minima
+
 author:
-  name: "Er. Rohit Anand"
+  name: Er. Rohit Anand
+  email: your-email@example.com # Replace with your professional email (optional)
   avatar: "/assets/profile.jpg"   # Upload your photo in /assets/
   bio: "Researcher in Precision Agriculture | Digital Agriculture | Academic Writer"
   location: "Columbus, USA"
   email: "anandrohit0621@email.com"
-  links:
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:anandrohit0621@gmail.com"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/therohitanand"
-    - label: "Google Scholar"
-      icon: "fas fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=za2Ac2AAAAAJ&hl=en"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/Anandhub0621"
-    - label: "ResearchGate"
-      icon: "fab fa-researchgate"
-      url: "https://www.researchgate.net/profile/Rohit-Anand-8/research"
+  
+# Social links (add or remove as needed)
+social_links:
+  github: anandhu0621
+  linkedin: your-linkedin-username
+  twitter: your-twitter-handle
+  # other options: facebook, instagram, youtube, stackoverflow, etc.
 
-# Theme
-theme: minima
-
-# Build Settings
+# Build settings
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# SEO
-title_separator: "|"
+# SEO settings
+google_analytics: UA-XXXXXXXXX-X # Replace with your tracking ID if you have one
 
-# Navigation Menu
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
+# Header/footer customization
+minima:
+  skin: classic
+  social_links:
+    github: https://github.com/Anandhub0621
+    linkedin: https://linkedin.com/in/therohitanand
+  date_format: "%b %-d, %Y"
 
-# Main Navigation Bar
-nav:
-  - title: "Home"
-    url: /
-  - title: "About"
-    url: /about/
-  - title: "Research"
-    url: /research/
-  - title: "CV"
-    url: /cv/
-  - title: "Contact"
-    url: /contact/
-  - title: "Blog"
-    url: /year-archive/
+# Navigation links (update according to your content structure)
+header_pages:
+  - index.md
+  - About.md
+  - research.md
+  - blog.md
+  - contact.md
+  - cv.md
 
-# Social Sharing Image (Optional)
-# social:
-#   image: /assets/banner.png
+# Optional: Markdown formatting
+markdown: kramdown
+kramdown:
+  input: GFM
 
-# Site Footer
+# Exclude files you don't want to publish
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
