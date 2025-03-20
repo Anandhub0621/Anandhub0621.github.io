@@ -1,57 +1,57 @@
+title: "Er. Rohit Anand"
 description: >-
-  Personal Website | Researcher | Academic Portfolio | Blog
-baseurl: ""  # Keep this empty for user.github.io site
-url: "https://Anandhub0621.github.io"
+  Personal Website of Er. Rohit Anand | Researcher in Precision Agriculture, AI in Digital Farming, and Remote Sensing.
+  Graduate Research Associate at The Ohio State University.
 
-theme: minima
+url: "https://anandhub0621.github.io"  # ← Replace with your actual GitHub Pages URL
+baseurl: ""  # Keep it empty if it's your user/organization site (not a project site)
 
 author:
-  name: Er. Rohit Anand
-  email: your-email@example.com # Replace with your professional email (optional)
-  avatar: /assets/profile.jpg   # Upload your photo in /assets/
-  bio: Researcher in Precision Agriculture | Digital Agriculture | Academic Writer
-  location: Columbus, USA
-  email: anandrohit0621@email.com
-  
-# Social links (add or remove as needed)
-social_links:
-  github: https://github.com/Anandhub0621
-  linkedin: https://linkedin.com/in/therohitanand
-  # other options: facebook, instagram, youtube, stackoverflow, etc.
+  name: "Er. Rohit Anand"
+  email: "anandrohit0621@email.com"
+  location: "Columbus, USA"
+  bio: "Researcher in Precision Agriculture, Digital Agriculture, and AI in Farming."
+  avatar: "/assets/profile.jpg"  # Make sure this image exists
+
+# Theme
+theme: minima
 
 # Build settings
+markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# SEO settings
-google_analytics: UA-XXXXXXXXX-X # Replace with your tracking ID if you have one
+# Social links (optional but recommended for footer visibility)
+social_links:
+  linkedin: https://linkedin.com/in/therohitanand
+  github: https://github.com/anandhub0621
+  google_scholar: https://scholar.google.com/citations?user=za2Ac2AAAAAJ&hl=en
+  researchgate: https://www.researchgate.net/profile/Rohit-Anand-8?ev=hdr_xprf
 
-# Header/footer customization
-minima:
-  skin: classic
-  social_links:
-    github: https://github.com/Anandhub0621
-    linkedin: https://linkedin.com/in/therohitanand
-  date_format: "%b %-d, %Y"
-
-# Navigation links (update according to your content structure)
+# Navigation menu
 header_pages:
   - index.md
-  - About.md
+  - about.md
   - research.md
-  - blog.md
+  - publications.md
   - contact.md
   - cv.md
 
-# Optional: Markdown formatting
-markdown: kramdown
-kramdown:
-  input: GFM
+# SEO settings (for better discoverability)
+google_analytics: ""  # Add your GA ID if any
+show_excerpts: true
 
-# Exclude files you don't want to publish
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
+# Feed settings
+feed:
+  path: feed.xml
+
+# Minima Theme Colors (Optional)
+minima:
+  skin: auto  # auto | classic | dark | solarized
+  social_links:
+    - { platform: github,        user_url: "https://github.com/your-username" }
+    - { platform: linkedin,      user_url: "https://linkedin.com/in/your-link" }
+    - { platform: google_scholar, user_url: "https://scholar.google.com/your-profile" }
+    - { platform: researchgate,  user_url: "https://www.researchgate.net/profile/YourName" }
+
