@@ -4,7 +4,6 @@ title: "Curriculum Vitae"
 permalink: /cv/
 ---
 
-You can [**Download My CV (PDF)**](/assets/your-cv.pdf)
 
 ---
 
@@ -40,9 +39,9 @@ You can [**Download My CV (PDF)**](/assets/your-cv.pdf)
   •JEE Advanced (2016)
   •ICAR-AIEEA UG (2016)
 ### Leadership & Extracurricular Activities
--Team Leader, Swachh Bharat Summer Internship (2018) under MHRD, Govt. of India
--Speaker at Credit Seminar: Robotic Harvesters for Fruits and Vegetables (2021)
--Participation & Awards in Sports & Cultural Events:
+- Team Leader, Swachh Bharat Summer Internship (2018) under MHRD, Govt. of India
+- Speaker at Credit Seminar: Robotic Harvesters for Fruits and Vegetables (2021)
+- Participation & Awards in Sports & Cultural Events:
   o Winner & Runner-up in Chess, Badminton, Table Tennis, Cricket at college & national level.
   o 3rd Prize in Group Song (Annual Cultural Meet, IARI, 2022).
   o 3rd Prize in Vantage Point Event at Prakriti Agri-Fest, IIT Kharagpur (2019).
